@@ -23,16 +23,17 @@ LinkedList<T>::~LinkedList()
 template <typename T>
 bool LinkedList<T>::isEmpty() const
 {
+	//return correct size
+	/** TODO 
+		Fix this method
+	*/
 	return(m_size == 0);
 }
 
 template <typename T>
 int LinkedList<T>::size() const
 {
-	/** TODO 
-		Fix this method
-	*/
-	return(0);
+	return m_size;
 }
 
 template <typename T>
