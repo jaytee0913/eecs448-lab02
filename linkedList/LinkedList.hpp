@@ -128,9 +128,6 @@ bool LinkedList<T>::removeBack()
 				temp = temp->getNext();
 			}
 			lastNode = temp;
-			delete temp;
-			m_size--;
-			isRemoved = true;
 		}
 		delete temp;
 		m_size--;
