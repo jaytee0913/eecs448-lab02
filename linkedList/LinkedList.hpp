@@ -119,12 +119,12 @@ bool LinkedList<T>::removeBack()
 		temp = m_front;
 		if(m_size > 1)
 		{
-			for(int i = 0; i < m_size; i++)
+			for(int i = 1; i < m_size; i++)
 			{
-				if(i = m_size-1)
+				/*if(i = m_size-1)
 				{
 					secondintoLast = temp;
-				}
+				}*/
 				temp = temp->getNext();
 			}
 			lastNode = temp;
